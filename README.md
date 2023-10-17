@@ -52,9 +52,9 @@ Métodos:
 
 ConsultarDados: Permite que o aluno veja seus dados cadastrados (nome, telefone, login, senha, email, matrícula).
 
-ProcurarLivros (PorNome, PorAutor, PorEditora, DetalhesLivro) 
+ProcurarLivros (PorNome, PorAutor, PorEditora, DetalhesLivro): Permite que o usuário veja a situação e detalhes do livro que está procurando, a busca pode ser feita pelo título, pela editora ou pelo autor.
 
-ConsultarSituacao (CalcularMulta, LivrosEmprestados, HistoricoEmprestimos)  
+ConsultarSituacao (CalcularMulta, LivrosEmprestados, HistoricoEmprestimos): Consulta a situação do usuário, se existe alguma pendência, algum livro emprestado, mostra o histórico de empréstimos e, se houver, calcula multas.
 
  
 
@@ -65,12 +65,12 @@ Atributos:
 Pessoa (): Struct que identifica o usuário (nome, telefone, login, senha, email, matrícula).
 
 Métodos: 
-ProcurarLivro (PorTitulo, PorAutor, PorEditora, DetalhesLivro) 
+ProcurarLivro (PorTitulo, PorAutor, PorEditora, DetalhesLivro): Permite que o usuário veja a situação e detalhes do livro que está procurando, a busca pode ser feita pelo título, pela editora ou pelo autor.
 
-EditarAcervo (AdicionarLivro, RemoverLivro, EditarLivro (EditarTitulo, EditarAutor, EditarEditora, EditarDetalhes)) 
+EditarAcervo (AdicionarLivro, RemoverLivro, EditarLivro (EditarTitulo, EditarAutor, EditarEditora, EditarDetalhes)): 
 
-EditarCadastros (AdicionarPessoa, RemoverPessoa, EditarPessoa (EditarNome, EditarSenha, EditarEmail, EditarMatricula)) 
+EditarCadastros (AdicionarPessoa, RemoverPessoa, EditarPessoa (EditarNome, EditarSenha, EditarEmail, EditarMatricula)) :
 
-Emprestar (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), EmprestarLivro) 
+Emprestar (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), EmprestarLivro) :
 
-Devolver (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), CalcularMulta, ReceberLivro) 
+Devolver (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), CalcularMulta, ReceberLivro) :
