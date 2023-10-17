@@ -1,6 +1,6 @@
 Sistema de Biblioteca Avançado: 
 
-Descrição do Projeto:  
+Descrição do Projeto: 
 
 As bibliotecas da universidade precisam de um sistema que controle o estoque de livros, permita consulta de títulos, gerencie multas, atrasos de devolução e envie notificações sobre devoluções. É necessário que o sistema seja de fácil implementação, eficiente, tenha interface intuitiva e que incorpore os princípios de programação orientada a objetos. 
 
