@@ -1,4 +1,3 @@
-# Teste de mudança
 Sistema de Biblioteca Avançado: 
 
 Descrição do Projeto:  
