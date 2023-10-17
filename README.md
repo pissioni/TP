@@ -18,7 +18,7 @@ Levantamento de requisitos:
 
 Requisitos funcionais: 
 
-O sistema deve atender alunos e bibliotecários, cada um com sua finalidade. 
+O sistema deve atender alunos e bibliotecários, cada um com sua devida finalidade e funcionalidade. 
 
 Controle do acervo (consulta, possibilidade de adicionar ou remover livros). 
 
@@ -44,15 +44,17 @@ Classe Alunos:
 
 Atributos: 
 
-Pessoa (login): Uma string para identificar o usuário. 
+Pessoa (): Struct que identifica o usuário (nome, telefone, login, senha, email, matrícula).
 
-Situação (): Situação do empréstimo (atrasado ou em dia). 
+Situação (): Situação do empréstimo, acusa qualquer pendência e/ou multa. 
 
 Métodos: 
 
-ConsultarDados 
+ConsultarDados: Permite que o aluno veja seus dados cadastrados (nome, telefone, login, senha, email, matrícula).
 
-ConsultarSituacao 
+ProcurarLivros (PorNome, PorAutor, PorEditora, DetalhesLivro) 
+
+ConsultarSituacao (CalcularMulta, LivrosEmprestados, HistoricoEmprestimos)  
 
  
 
@@ -60,6 +62,15 @@ Classe Bibliotecário:
 
 Atributos: 
 
-Pessoa (login): Uma string para identificar o usuário. 
+Pessoa (): Struct que identifica o usuário (nome, telefone, login, senha, email, matrícula).
 
 Métodos: 
+ProcurarLivro (PorTitulo, PorAutor, PorEditora, DetalhesLivro) 
+
+EditarAcervo (AdicionarLivro, RemoverLivro, EditarLivro (EditarTitulo, EditarAutor, EditarEditora, EditarDetalhes)) 
+
+EditarCadastros (AdicionarPessoa, RemoverPessoa, EditarPessoa (EditarNome, EditarSenha, EditarEmail, EditarMatricula)) 
+
+Emprestar (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), EmprestarLivro) 
+
+Devolver (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), CalcularMulta, ReceberLivro) 
