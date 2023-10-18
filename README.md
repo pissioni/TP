@@ -65,6 +65,7 @@ Atributos:
 Pessoa (): Struct que identifica o usuário (nome, telefone, login, senha, email, matrícula).
 
 Métodos: 
+
 ProcurarLivro (PorTitulo, PorAutor, PorEditora, DetalhesLivro): Permite que o usuário veja a situação e detalhes do livro que está procurando, a busca pode ser feita pelo título, pela editora ou pelo autor.
 
 EditarAcervo (AdicionarLivro, RemoverLivro, EditarLivro (EditarTitulo, EditarAutor, EditarEditora, EditarDetalhes)): Edita as informações de livros no acervo, pode adicionar, remover ou mudar informações. 
