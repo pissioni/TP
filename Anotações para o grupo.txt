@@ -1,5 +1,5 @@
 "Manual de estilo"
-Convenções para nos ajudar a codar de forma igual
+Convenções para nos ajudar a codar de forma padronizada 
 
 Funções e variáveis no formato camelCase:
 
