@@ -80,12 +80,20 @@ Classe Livros:
 Atributos:
 
 Nome (): String que informa o nome da livro.
+
 Autor (): String que informa quem escreveu o livro.
+
 Ano (): String que informa ano de publicação do livro.
+
 Edição (): String que informa edição.
+
 Seção (): String que informa em qual seção o livro se encontra.
+
 Bibliotecas (): String (?)
+
 Editora (): String que informa  a editora.
+
 Número (): String que informa o número de identificação do livro.
+
 Situação (): Enum  que indica situação do empréstimo, acusa qualquer pendência e/ou multa. 
 
