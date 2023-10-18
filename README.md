@@ -38,7 +38,7 @@ Código bem documentado e organizado.
 
 Modelagem básica do sistema: 
 
-Terão duas classes principais: Alunos e Bibliotecário. 
+Terão três classes principais: Alunos, Bibliotecário e Livros. 
 
 Classe Alunos: 
 
@@ -46,7 +46,7 @@ Atributos:
 
 Pessoa (): Struct que identifica o usuário (nome, telefone, login, senha, email, matrícula).
 
-Situação (): Situação do empréstimo, acusa qualquer pendência e/ou multa. 
+Situação (): Enum que indica situação do empréstimo, acusa qualquer pendência e/ou multa. 
 
 Métodos: 
 
@@ -74,3 +74,18 @@ EditarCadastros (AdicionarPessoa, RemoverPessoa, EditarPessoa (EditarNome, Edita
 Emprestar (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), EmprestarLivro): Computa empréstimos de livros e atualiza o sistema com a situação atual da obra.
 
 Devolver (ConsultarSituacao, ProcurarLivro (PorNome, PorAutor, PorEditora, DetalhesLivro), CalcularMulta, ReceberLivro): Computa devoluções de livros e atualiza o sistema com a situação atual da obra.
+
+Classe Livros:
+
+Atributos:
+
+Nome (): String que informa o nome da livro.
+Autor (): String que informa quem escreveu o livro.
+Ano (): String que informa ano de publicação do livro.
+Edição (): String que informa edição.
+Seção (): String que informa em qual seção o livro se encontra.
+Bibliotecas (): String (?)
+Editora (): String que informa  a editora.
+Número (): String que informa o número de identificação do livro.
+Situação (): Enum  que indica situação do empréstimo, acusa qualquer pendência e/ou multa. 
+
