@@ -1,0 +1,18 @@
+"Manual de estilo"
+Convenções para nos ajudar a codar de forma padronizada 
+
+Funções e variáveis no formato camelCase:
+
+void editarPessoas ()
+int pessoas = 0
+
+Classes serão CamelCase e maiúsculas:
+
+class Bibliotecario {}
+class JoaoDaSilva {}
+
+Constantes serão em CAIXA ALTA:
+
+#define PI = 3.14159
+#define RAIZ_DE_2 = 1.4
+
